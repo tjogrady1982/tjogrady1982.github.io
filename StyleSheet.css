@@ -19,3 +19,15 @@ p {
     font-family: courier;
     font-size: 150%;
 }
+
+ul {
+    color: forestgreen;
+    font-family: courier;
+    font-size: 150%;
+}
+
+ol {
+    color: forestgreen;
+    font-family: courier;
+    font-size: 150%;
+}
