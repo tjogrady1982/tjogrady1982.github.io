@@ -1,2 +1,21 @@
 ﻿body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: darkblue;
+    font-family: Jokerman;
+    font-size: 250%;
+}
+
+h2 {
+    color: mediumpurple;
+    font-family: courier;
+    font-size: 200%;
+}
+
+p {
+    color: mediumpurple;
+    font-family: courier;
+    font-size: 150%;
 }
