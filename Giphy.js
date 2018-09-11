@@ -8,7 +8,7 @@ function getGif() {
   // we create a new instance of an HTTP request
   var request = new XMLHttpRequest();
   //we get the text that the user has typed in
-  searchTerm = document.getElementById('input-box').value;
+  //searchTerm = document.getElementById('input-box').value;
   // we set up the url endpoint we want to reach
   //var searchQuery = "&tag=" + searchTerm;
   var requestUrl = URL + TRENDING_END_POINT + API_KEY //+ searchQuery
