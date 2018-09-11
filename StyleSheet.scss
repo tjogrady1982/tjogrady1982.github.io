@@ -1,0 +1,34 @@
+﻿$maintextcolour: mediumpurple;
+body{ 
+    background-color: aliceblue;
+}
+
+h1 {
+    color: darkblue;
+    font-family: Jokerman;
+    font-size: 250%;
+}
+
+h2 {
+    color: $maintextcolour;
+    font-family: courier;
+    font-size: 200%;
+}
+
+p {
+    color: $maintextcolour;
+    font-family: courier;
+    font-size: 150%;
+}
+
+ul {
+    color: forestgreen;
+    font-family: courier;
+    font-size: 150%;
+}
+
+ol {
+    color: forestgreen;
+    font-family: courier;
+    font-size: 150%;
+}
