@@ -28,4 +28,5 @@ ol {
 
 a:link {
   font-family: courier;
-  color: mediumpurple; }
+  color: mediumpurple;
+  font-size: 150%; }
