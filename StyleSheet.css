@@ -25,3 +25,7 @@ ol {
   color: forestgreen;
   font-family: courier;
   font-size: 150%; }
+
+a:link {
+  font-family: courier;
+  color: mediumpurple; }

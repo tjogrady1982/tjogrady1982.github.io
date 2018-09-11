@@ -1,4 +1,5 @@
 ﻿$maintextcolour: mediumpurple;
+$maintextfont: courier;
 body{ 
     background-color: aliceblue;
 }
@@ -11,24 +12,29 @@ h1 {
 
 h2 {
     color: $maintextcolour;
-    font-family: courier;
+    font-family: $maintextfont;
     font-size: 200%;
 }
 
 p {
     color: $maintextcolour;
-    font-family: courier;
+    font-family: $maintextfont;
     font-size: 150%;
 }
 
 ul {
     color: forestgreen;
-    font-family: courier;
+    font-family: $maintextfont;
     font-size: 150%;
 }
 
 ol {
     color: forestgreen;
-    font-family: courier;
+    font-family: $maintextfont;
     font-size: 150%;
+}
+
+a:link {
+    font-family: $maintextfont;
+    color: $maintextcolour;
 }
