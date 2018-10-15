@@ -2,7 +2,7 @@
 $maintextfont: courier;
 
 h2, p, a:link, button{
-    font-family: $maintextcolour;
+    color: $maintextcolour;
 }
 
 h2, p, ul, ol, a:link, button{

@@ -1,5 +1,5 @@
 h2, p, a:link, button {
-  font-family: mediumpurple; }
+  color: mediumpurple; }
 
 h2, p, ul, ol, a:link, button {
   font-family: courier; }
