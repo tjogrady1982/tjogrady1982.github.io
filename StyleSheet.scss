@@ -1,5 +1,13 @@
 ﻿$maintextcolour: mediumpurple;
 $maintextfont: courier;
+
+h2, p, a:link, button{
+    font-family: $maintextcolour;
+}
+
+h2, p, ul, ol, a:link, button{
+    font-family: $maintextfont;
+}
 body{ 
     background-color: aliceblue;
 }
@@ -11,37 +19,27 @@ h1 {
 }
 
 h2 {
-    color: $maintextcolour;
-    font-family: $maintextfont;
     font-size: 200%;
 }
 
 p {
-    color: $maintextcolour;
-    font-family: $maintextfont;
     font-size: 150%;
 }
 
 ul {
     color: forestgreen;
-    font-family: $maintextfont;
     font-size: 150%;
 }
 
 ol {
     color: forestgreen;
-    font-family: $maintextfont;
     font-size: 150%;
 }
 
 a:link {
-    font-family: $maintextfont;
-    color: $maintextcolour;
     font-size: 150%;
 }
 
 button {
-    font-family: $maintextfont;
-    color: $maintextcolour;
     font-size: 150%;  
 }
