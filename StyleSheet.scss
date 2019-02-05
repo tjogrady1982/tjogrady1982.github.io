@@ -59,3 +59,12 @@ button {
     line-height: 75px;
     font-size: 30px;
   }
+  ol {
+    counter-reset: section;              
+    list-style-type: none;
+    li::before {
+        counter-increment: section; 
+        content: counters(section, ".") " ";           
+      }
+  }
+  
